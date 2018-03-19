@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light|Tangerine" rel="stylesheet">
+  <title>Tell Me A Story</title>
+</head>
+<body>
+  <div>
+    <h1>Once upon a time...</h1>
+      <p>... there was a <span>{{character}}</span> named <span>{{name}}</span>. They had grown up alone in
+        a <span>{{location}}</span> as their parents had died when they were very young. Although they had
+        often dreamed of <span>{{dream}}</span>, it was actually their destiny to <span>{{destiny}}</span>.</br>
+        One day, while <span>{{activity}}</span>, <span>{{name}}</span> encountered a magical object: <span>{{artifact}}</span>. They were
+        not to know how valuable this <span>{{object}}</span> would be: it was actually the magical artifact
+        sought by their arch-nemesis: <span>{{nemesis}}</span>. </br>
+        <span>{{name}}</span> was about to start the biggest quest of their lives: a quest through <span>{{landscape}}</span>
+        with their faithful companion, <span>{{companion}}</span>, to <span>{{task}}</span> the magical artifact. </br></p>
+      <h1>Adventure awaits...</h1>
+    </div>
+</body>
+</html>
