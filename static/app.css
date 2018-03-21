@@ -1,19 +1,20 @@
 h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+  position: centre;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+span {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 28px;
 }
 
 body {
-  background-color: pink;
-}
-
-nav ul {
-  list-style: none;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+  background-image: url("scroll.jpg");
+  background-size: cover;
 }
